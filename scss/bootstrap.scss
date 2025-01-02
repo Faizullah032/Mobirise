@@ -1,0 +1,93 @@
+// Import Bootstrap's functions and variables
+// @import "functions";
+// @import "variables";
+
+// Font
+$font-family-sans-serif: "Anek Latin", sans-serif; // Set your preferred font here
+
+// Font size
+$font-size-base: 1.1rem; // Adjust the base font size if needed
+$font-size-1: 2rem;
+
+// Colors
+$primary: #FFDD65;
+$secondary: #ae5eff;
+$dark: #232323;
+$light: #5F5E5E;
+$body-bg: #232323;
+$body-color: #212132;
+
+// Navbar 
+$navbar-nav-link-padding-x: 1rem;
+$navbar-padding-y: 0.8rem;
+$navbar-dark-color: #fff;
+
+// Buttons 
+$button-radius: 10px;
+$btn-border-radius: $button-radius;
+$btn-border-radius-sm: $button-radius;
+$btn-border-radius-lg: $button-radius;
+$btn-padding-y: 10px;
+$btn-padding-y-lg: $btn-padding-y;
+$btn-padding-y-sm: $btn-padding-y;
+$btn-padding-x: 30px;
+$btn-padding-x-lg: $btn-padding-x;
+$btn-padding-x-sm: $btn-padding-x;
+
+$navbar-toggler-border-radius: 5px;
+
+// Spacers
+$spacer: 1rem;
+$spacers: (
+    0: 0,
+    1: $spacer * 0.25,
+    2: $spacer * 0.5,
+    3: $spacer,
+    4: $spacer * 1.5,
+    5: $spacer * 3,
+    6: $spacer * 6,
+    7: $spacer * 8,
+    8: $spacer * 12,
+);
+
+// Border-radius
+$rounded: 1.1;
+$border-radius-pill: 8rem;
+$rounded: (
+    1: $rounded * 0.2rem,
+    2: $rounded * 0.4rem,
+    3: $rounded * 0.6rem,
+    4: $rounded * 0.8rem,
+    5: $rounded * 1rem,
+    6: $rounded * 1.2rem,
+    7: $rounded * 1.6rem,
+    8: $rounded * 2.4rem,
+);
+  
+$lead: 1.5rem;
+$line-height-base: 1.7;
+$headings-margin-bottom: $spacer * 1;
+
+$enable-negative-margins: true;
+
+// Inputs
+$input-radius: 0px;
+$input-btn-padding-y: 1rem;
+$input-btn-padding-x: 1rem;
+$input-border-radius: $input-radius;
+$input-border-radius-sm: $input-radius;
+$input-border-radius-lg: $input-radius;
+$input-border-color: #666666;
+
+// Container
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px,
+    xxl: 1430px
+);
+
+
+// Import Bootstrap's main SCSS file
+@import '../node_modules/bootstrap/scss/bootstrap';

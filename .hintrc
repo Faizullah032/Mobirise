@@ -1,0 +1,26 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "button-type": "off",
+    "axe/structure": [
+      "default",
+      {
+        "list": "off"
+      }
+    ],
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "print-color-adjust",
+          "-webkit-text-size-adjust",
+          "-webkit-tap-highlight-color",
+          "text-decoration-skip-ink",
+          "text-align: -webkit-match-parent"
+        ]
+      }
+    ]
+  }
+}
